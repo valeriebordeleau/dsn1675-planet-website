@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 Georgia,serif;
+  font: normal 100%/1.5 sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -7,6 +7,10 @@ p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 0 1.5rem;
+}
+
+.centre {
+text-align: center;
 }
 
 .yotta {

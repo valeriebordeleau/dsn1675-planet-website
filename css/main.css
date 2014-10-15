@@ -16,6 +16,24 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width:60em) {
+    html {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width:90em) {
+    html {
+        font-size: 120%
+    }
+}
+
+@media only screen and (min-width:120em) {
+    html {
+        font-size: 130%
+    }
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -63,20 +81,53 @@ h1 {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 22em) {  
+@media only screen and (min-width: 25em) {  
     .nav {
         text-align: center;
         }
+    
+    .nav2 {
+        text-align: center;
+    }
     .nav li {
         display: inline-block;
         }
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 38em) {
     .nav {
-        float: left;
+        float: right;
+        text-align: right;
         }
+    
+    .nav2 {
+        text-align: left;
+    }
+    
     h1 {
         float: left;
         }
+}
+
+@media only screen and (min-width: 60em) {
+    .nav {
+        float: right;
+        text-align: right;
+        }
+    
+    .nav2 {
+        float: left;
+        text-align: left;
+    }
+    
+    .data dt {
+        float: left;
+        width: 50% 
+        
+    }
+    
+    .data dd {
+        float: left;
+        width: 50%;
+    }
 }

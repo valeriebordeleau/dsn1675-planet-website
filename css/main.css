@@ -92,6 +92,24 @@ h1 {
     .nav li {
         display: inline-block;
         }
+    
+    .navfooter {
+        color: blue;
+    }
+    
+    
+    .navfooter li::after {
+        content:" · "
+        
+    }
+    
+    .navfooter a {
+        display: inline;
+    }
+    
+    .navfooter :last-child::after {
+        content: none;
+    }
 }
 
 @media only screen and (min-width: 38em) {

@@ -9,7 +9,13 @@
   <link href="css/typography.css" rel="stylesheet">
 </head>
 <body>
+    
+<ul class="skip-links">
+    <li><a href="#main">Jump to Main</a></li>
+    <li><a href="#nav">Jump to Navigation</li>
+</ul>
 
+<header role="banner">
 <div class="colored pad-top-half">    
 <h1 class="giga gutter">Saturn</h1>   
     
@@ -21,8 +27,9 @@
     </ul>    
 </nav>
 </div>
+</header> 
     
-</div>
+<main role="main">
     
 <div class="colored2">
         <p class="peta centre pad-top-half pad-bottom-half">Moons</p>
@@ -32,7 +39,7 @@
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
         <div class="grid">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                <img src="images/moon1.jpg" class="gutter pad-bottom">
+                <img src="images/moon1.jpg" class="gutter pad-bottom" alt="Saturn's first moon">
             </div>
             <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
                 <h2 class="tera gutter">Moon Facts</h2>
@@ -52,7 +59,7 @@
     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
         <div class="grid">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                <img src="images/moon2.jpg" class="gutter pad-bottom">
+                <img src="images/moon2.jpg" class="gutter pad-bottom" alt="Saturn's second moon">
             </div>
             <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
                 <h2 class="tera gutter">Moon Info</h2>
@@ -74,18 +81,20 @@
 <h2 class="tera gutter pad-top">Discovery</h2>
     <div class="grid">
         <div class="unit gutter pad-bottom unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3">
-            <img src="images/moon3.jpg">
+            <img src="images/moon3.jpg" alt="The surface of one of Saturn's moons">
         </div>
         <p class="gutter unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-1-3">Saturn has been known since prehistoric times.In ancient times, it was the most distant of the five known planets in the solar system (excluding Earth) and thus a major character in various mythologies. Babylonian astronomers systematically observed and recorded the movements of Saturn.</p>
 
             <p class="gutter unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">In ancient Roman mythology, the god Saturnus, from which the planet takes its name, was the god of agriculture..</p>
 </div>
-</div>        
+</div>  
+    
+</main>    
 
 <footer>
     <div class="colored gutter-half grid">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-            <p class="nav2 milli pad-top-half push-none">©2014 Saturn Planetary Consortium</p>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" role="content info">
+            <p class="nav2 milli pad-top-half push-none"> ©2014 Saturn Planetary Consortium</p>
             <nav>
          </div>
          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 pad-top-half">

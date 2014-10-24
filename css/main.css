@@ -101,7 +101,7 @@ h1 {
 .nav a:visited,
 .nav a:active {
     display: block;
-    text-align: inline-block;
+    text-align: left;
     color: #0074D9;
     text-decoration: none;
 }

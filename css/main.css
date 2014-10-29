@@ -43,6 +43,10 @@ body {
   padding: 0;
 }
 
+.centered {
+    text-align: center;
+}
+
 a:focus {
     outline:3px solid #000; 
 }
@@ -104,6 +108,22 @@ h1 {
     text-align: left;
     color: #0074D9;
     text-decoration: none;
+}
+
+label {
+    display: block;  
+}
+
+input + label {
+    display: inline-block;
+}
+
+button {
+    font-size: 1.5rem;
+}
+
+.button {
+    text-align: center;
 }
 
 @media only screen and (min-width: 25em) {  

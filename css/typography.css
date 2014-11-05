@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 sans-serif;
+  font: normal 100%/1.5 "Merriweather", serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -144,4 +144,9 @@ sub {
 .gutter-double, .gutter-2 {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand {
+  font-family:'Open Sans', sans-serif;
 }
